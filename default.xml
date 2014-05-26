@@ -10,7 +10,7 @@
            sync-j="4" />
   
   <remote name="evolution"
-           fetch="git://github.com/SvtDon/" />
+           fetch="https://github.com/SvtDon/" />
   
   <remote name="slim"
            fetch="git://github.com/SlimRoms/"
