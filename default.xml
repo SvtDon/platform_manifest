@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
+  <remote name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="github"
+  <remote name="github"
            fetch="git://github.com/"
            review="https://gerrit.slimroms.net/"/>
            
-  <remote  name="evolution"
-           fetch="git://github.com/SvtDon/" />         
+  <remote name="evolution"
+           fetch="git://github.com/SvtDon/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -19,7 +19,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
+  <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4" />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
@@ -92,7 +92,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="SlimRoms/android_external_clang" remote="github" revision="kk4.4"  />
+  <project path="external/clang" name="SlimRoms/android_external_clang" remote="github" revision="kk4.4" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -100,7 +100,7 @@
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4"  />
+  <project path="external/e2fsprogs" name="SlimRoms/android_external_e2fsprogs" remote="github" revision="kk4.4" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -114,7 +114,7 @@
   <project path="external/f2fs-tools" name="SlimRoms/android_external_f2fs-tools" remote="github" revision="kk4.4" />
   <project path="external/exfat" name="SlimRoms/android_external_exfat" remote="github" revision="kk4.4" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4"  />
+  <project path="external/flac" name="SlimRoms/android_external_flac" remote="github" revision="kk4.4" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/fuse" name="SlimRoms/android_external_fuse" remote="github" revision="kk4.4" />
