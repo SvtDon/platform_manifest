@@ -443,7 +443,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="evolution" revision="kk4.4" />
 
   <!-- Evolution Vendor Proprietary -->
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="evolution" revision="jb4.4" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="evolution" revision="kk4.4" />
   
   <!-- New Additions for slim -->
   <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="kk4.4" />
