@@ -48,6 +48,8 @@ For qcom devices which are using CodeAuroraForum trees:
 
 	repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4-caf
 
+Then sync up with this command:
+
     repo sync
 
 Building the System
