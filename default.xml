@@ -440,7 +440,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="evolution" revision="kk4.4-caf" />
+  <project path="platform_manifest" name="platform_manifest" remote="evolution" revision="kk4.4" />
 
   <!-- Evolution Vendor Proprietary -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="evolution" revision="jb4.4" />
