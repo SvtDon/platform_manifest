@@ -43,13 +43,11 @@ To initialize your local repository using the SlimKat trees, use this command:
 for google, exynos and non qcom devices:
 
 	repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4
-
----------------    
+    
 For qcom devices which are using CodeAuroraForum trees:
 
 	repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4-caf
 
----------------
     repo sync
 
 Building the System
