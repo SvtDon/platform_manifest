@@ -30,9 +30,25 @@ Now enter the following to initialize the repository:
 Repositories:
 ---------------
 
-Before you continue --> run this in the terminal
+Please take note that we have two main line branches depending on
+which hardware base your phone is working.
 
-    repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4
+If you have a qcom powered device which needs CodeAuroraForum (CAF)
+trees please us the kk4.4-caf branch which pulls for the effected packages
+the correct caf version for you.
+
+To initialize your local repository using the SlimKat trees, use this command:
+
+
+for google, exynos and non qcom devices:
+
+	repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4
+    
+For qcom devices which are using CodeAuroraForum trees:
+
+	repo init -u git://github.com/SvtDon/platform_manifest.git -b kk4.4-caf
+
+Then sync up with this command:
 
     repo sync
 
