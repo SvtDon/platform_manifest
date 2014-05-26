@@ -14,7 +14,7 @@
   
   <remote  name="slim"
            fetch="git://github.com/SlimRoms/"
-           review="https://gerrit.slimroms.net/"/>
+           review="https://gerrit.slimroms.net/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
