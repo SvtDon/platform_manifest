@@ -11,9 +11,9 @@
   <remote name="evolution"
            fetch="git://github.com/SvtDon/" />
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.3_r1.1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="android_build" remote="evolution" revision="kk4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
