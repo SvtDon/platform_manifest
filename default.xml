@@ -10,6 +10,9 @@
            
   <remote name="evolution"
            fetch="git://github.com/SvtDon/" />
+           
+  <remote name="omnirom"
+           fetch="https://github.com/omnirom" />         
 
   <default revision="refs/tags/android-4.4.2_r2"
             remote="aosp"
@@ -326,6 +329,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="SlimRoms/packages_apps_InCallUI" remote="github" revision="kk4.4" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/LockClock" name="Cyanogenmod/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="SlimRoms/packages_apps_Mms" remote="github" revision="kk4.4" />
