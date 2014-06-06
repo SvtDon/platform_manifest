@@ -11,7 +11,7 @@
   <remote name="evolution"
            fetch="git://github.com/SvtDon/" />
 
-  <default revision="refs/tags/android-4.4.3_r1.1"
+  <default revision="refs/tags/android-4.4.2_r2"
             remote="aosp"
             sync-c="true"
             sync-j="8" />
