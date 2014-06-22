@@ -46,7 +46,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="evolution" revision="kk4.4" />
-  <project path="device/lge/vs980" name="device_lge_vs980" remote="evolution" revision="test" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="evolution" revision="kk4.4" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
